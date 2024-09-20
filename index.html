@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio</title>
+    <link rel="icon" type="image/jpg" href="Imagenes/Perfil.jpg">
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>        
+    <!-- Menu-->
+    <nav>
+        <ul>
+            <li><a href="#acerca">Quién soy</a></li>
+            <li><a href="#conocimientos">Conocimientos</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Presentación -->
+    <section id="about">
+        <img src="Imagenes/Perfil.jpg" alt="Foto de perfil" class="profile-pic">
+        <h1>Hola, soy Sofi!</h1>
+        <p>Estudiante para Analista Programadora con amplia experiencia en diseño y administración de E-commerce. <br>
+            Apasionada por el diseño y el mundo digital, comprometida con brindar la mejor experiencia al usuario, siendo original, eficaz y meticulosa. <br>
+            Busco oportunidades que me permitan destacar mis habilidades y seguir creciendo profesionalmente.</p>
+    </section>
+
+    <!-- Conocimientos -->
+    <section id="conocimientos">
+        <h2 class="conocimientos">Conocimientos</h2>
+        <div class="skills-container">
+            <div class="skills-column">
+                <button>Desarrollo Web</button>
+                <button>HTML/CSS</button>
+                <button>JavaScript</button>
+                <button>React JS/Angular</button>
+            </div>
+            <div class="skills-column">
+                <button>WordPress</button>
+                <button>E-commerce</button>
+                <button>Tienda Nube</button>
+                <button>Adobe Creative Suite</button>
+            </div>
+            <div class="skills-column">
+                <button>Diseño Web</button>
+                <button>SEO/SEM</button>
+                <button>Social Media</button>
+                <button>Marketing Digital</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section class="proyectos" id="proyectos">
+        <h2 class="proyectos">Proyectos</h2>
+        <div class="projects-grid">
+            <div class="project-item">
+                <a href="https://sofiagayol.myportfolio.com/e-commerce-management" target="_blank">
+                    <img src="Imagenes/Proyecto 1.jpg" alt="Proyecto 1">
+                    <div class="project-info">
+                        <h3>E-Commerce Management</h3>
+                    </div>
+                </a>                
+            </div>
+            <div class="project-item">
+                <a href="https://sofiagayol.myportfolio.com/portfolio-graphic-design-social-media" target="_blank">
+                    <img src="Imagenes/Proyecto 2.jpg" alt="Proyecto 2">
+                    <div class="project-info">
+                        <h3>Graphic Design & Social Media</h3>
+                    </div>
+                </a>      
+            </div>
+            <div class="project-item">
+                <a href="https://sofiagayol.myportfolio.com/portfolio-sitios-web-e-commerce" target="_blank">
+                <img src="Imagenes/Proyecto 3.jpg" alt="Proyecto 3">
+                <div class="project-info">
+                        <h3>Sitios Web & E-Commerce</h3>
+                    </div>
+                </a>      
+            </div>
+            <div class="project-item">
+                <a href="https://sofiagayol.myportfolio.com/social-media-cm-desing" target="_blank">
+                <img src="Imagenes/Proyecto 4.jpg" alt="Proyecto 4">
+                <div class="project-info">
+                        <h3>CM & Desing</h3>
+                    </div>
+                </a>      
+            </div>
+            <div class="project-item">
+                <a href="https://sofiagayol.myportfolio.com/snkrestoration-sticker-design" target="_blank">
+                <img src="Imagenes/Proyecto 5.png" alt="Proyecto 5">
+                <div class="project-info">
+                        <h3>Sticker Design</h3>
+                    </div>
+                </a>      
+            </div>
+            <div class="project-item">
+                <a href="https://sofiagayol.myportfolio.com/nexxia-social-media-e-commerce" target="_blank">
+                <img src="Imagenes/Proyecto 6.jpg" alt="Proyecto 6">
+                <div class="project-info">
+                        <h3>Social Media & E-Commerce</h3>
+                </div>
+                </a>      
+            </div>
+        </div>
+    </section>
+
+    <!-- Redes Sociales -->
+    <section id="social">
+        <h2 class="social">Seguime en</h2>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/sofia-gayol/" target="_blank">
+                <img src="Imagenes/linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="https://www.behance.net/sofiagayol2" target="_blank">
+                <img src="Imagenes/behance.png" alt="Behance">
+            </a>
+            <a href="https://www.instagram.com/soffi.digital/" target="_blank">
+                <img src="Imagenes/instagram.png" alt="Instagram">
+            </a>
+        </div>
+    </section>
+
+    <!-- Formulario de Contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form action="ruta-del-servidor" method="POST">
+            <label for="name">Nombre *</label>
+            <input type="text" id="name" name="name" placeholder="Tu Nombre..." required>
+    
+            <label for="email">Correo Electrónico *</label>
+            <input type="email" id="email" name="email" placeholder="Tu Correo Electrónico..." required>
+    
+            <label for="message">Mensaje *</label>
+            <textarea id="message" name="message" placeholder="Tu Mensaje..." required></textarea>
+    
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>
